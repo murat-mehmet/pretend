@@ -1,6 +1,17 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.0.0](https://github.com/KnisterPeter/pretend/compare/v2.0.0...v3.0.0) (2019-09-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop node 8 support
+* drop support for node 6
+
+* drop node 8 support ([7c6e47f](https://github.com/KnisterPeter/pretend/commit/7c6e47f))
+* drop support for node 6 ([be2b926](https://github.com/KnisterPeter/pretend/commit/be2b926))
 
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/KnisterPeter/pretend/compare/v1.5.1...v2.0.0) (2018-11-19)
