@@ -1,3 +1,23 @@
+# [4.0.0](https://github.com/KnisterPeter/pretend/compare/v3.1.1...v4.0.0) (2023-03-28)
+
+
+### Bug Fixes
+
+* add the ability to pass an array to a formData parameter. ([af37fd0](https://github.com/KnisterPeter/pretend/commit/af37fd03e0b6041a7d075514e98f9b0160059f11))
+* use lowercase encoding name ([1398cd0](https://github.com/KnisterPeter/pretend/commit/1398cd024baffed78e619dff3efffb50228d2c56))
+
+
+### chore
+
+* test on node 14 and 16 ([b52d847](https://github.com/KnisterPeter/pretend/commit/b52d847ab4a812f8066a8053276425367c1395aa))
+
+
+### BREAKING CHANGES
+
+* Drop support for node 10 and 12
+
+
+
 ## [3.1.1](https://github.com/KnisterPeter/pretend/compare/v3.1.0...v3.1.1) (2021-10-22)
 
 
