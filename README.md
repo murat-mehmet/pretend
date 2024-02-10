@@ -1,6 +1,6 @@
 # pretend2
 
-Successor of pretend.
+Successor of pretend. The original project is archieved.
 
 [![npm](https://img.shields.io/npm/v/pretend.svg)](https://www.npmjs.com/package/pretend)
 [![GitHub license](https://img.shields.io/github/license/KnisterPeter/pretend.svg)](https://github.com/KnisterPeter/pretend)
