@@ -1,11 +1,10 @@
-# pretend2
+# pretend
 
 Successor of pretend. The original project is archieved.
 
-[![npm](https://img.shields.io/npm/v/pretend.svg)](https://www.npmjs.com/package/pretend)
-[![GitHub license](https://img.shields.io/github/license/KnisterPeter/pretend.svg)](https://github.com/KnisterPeter/pretend)
+[![npm](https://img.shields.io/npm/v/pretend.svg)](https://www.npmjs.com/package/@mmbt/pretend)
+[![GitHub license](https://img.shields.io/github/license/murat-mehmet/pretend.svg)](https://github.com/murat-mehmet/pretend)
 ![build](https://github.com/KnisterPeter/pretend/workflows/build/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/KnisterPeter/pretend/branch/master/graph/badge.svg)](https://codecov.io/gh/KnisterPeter/pretend)
 [![renovate badge](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
 A decorator based http webservice client build with typescript (inspired bei [feign](https://github.com/OpenFeign/feign)).
