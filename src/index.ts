@@ -175,8 +175,8 @@ function execute(
                   formData.append(parameter.name, val, val.name);
                 });
               } else {
-                formData.append(parameter.name, value, value.name);
-              }
+              formData.append(parameter.name, value, value.name);
+            }
             }
           });
         return formData;
@@ -195,6 +195,7 @@ function execute(
   const queryOrBodyIndex = createUrlResult[1];
   const headers = prepareHeaders(instance);
   const body = createBody();
+  const signal = args.find((arg) => arg instanceof AbortSignal)
 
   const chain = chainFactory(instance.__Pretend__.interceptors);
   return chain({
@@ -202,7 +203,8 @@ function execute(
     options: {
       method,
       headers,
-      body
+      body,
+      signal
     }
   });
 }
