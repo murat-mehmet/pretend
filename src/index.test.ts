@@ -1,6 +1,7 @@
 // tslint:disable:no-implicit-dependencies
 import 'isomorphic-fetch';
 import 'isomorphic-form-data';
+import "abort-controller/polyfill";
 import nock from 'nock';
 import { FormEncoding, ResponseType } from './decorators';
 import {

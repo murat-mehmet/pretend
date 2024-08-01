@@ -34,6 +34,7 @@
     "@knisterpeter/standard-tslint": "1.7.2",
     "@types/jest": "29.5.10",
     "@types/node": "20.10.0",
+    "abort-controller": "^3.0.0",
     "codecov": "3.8.3",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "isomorphic-fetch": "3.0.0",
@@ -49,7 +50,8 @@
   },
   "optionalDependencies": {
     "isomorphic-fetch": "3.0.0",
-    "isomorphic-form-data": "2.0.0"
+    "isomorphic-form-data": "2.0.0",
+    "abort-controller": "3.0.0"
   },
   "prettier": {
     "singleQuote": true,
